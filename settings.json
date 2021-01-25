@@ -1,0 +1,103 @@
+{
+  "atomKeymap.promptV3Features": true,
+
+  "editor.quickSuggestionsDelay": 1000,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.lightbulb.enabled": false,
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": false,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "MonoLisa",
+  "editor.fontSize": 15,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+
+  "explorer.confirmDragAndDrop": false,
+  "eslint.run": "onSave",
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "prettier.singleQuote": true,
+
+  "workbench.fontAliasing": "antialiased",
+  "workbench.editor.enablePreview": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "workbench.colorTheme": "CodeSandbox Black",
+
+  "window.zoomLevel": 0,
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // cleanup UI
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": false, // removes minimap
+  "editor.renderWhitespace": "none", // removes whitespace chars
+  "editor.renderIndentGuides": false, // removes indent guides
+  "editor.renderLineHighlight": "none", // removes line highlight
+  "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
+  "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
+  // "editor.lineNumbers": "off",
+  // "editor.folding": false, // optional: removes the folding feature
+  "editor.matchBrackets": "never", // removes the highlight of matching brackets (I use Subtle Match Brackets extension for this)
+  "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
+  "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
+  "workbench.activityBar.visible": true, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+  "workbench.editor.tabCloseButton": "off", // removes the status bar
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#0000" // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
+  },
+
+  "window.titleBarStyle": "native",
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "vscode_custom_css.imports": ["file:///Users/sid/code/vscode.css"],
+  "vscode_custom_css.policy": true,
+  "zenMode.fullScreen": false,
+  "customizeUI.titleBar": "inline",
+  "customizeUI.activityBar": "bottom",
+  "workbench.statusBar.visible": true,
+  "customizeUI.activityBarHideSettings": true,
+  "customizeUI.stylesheet": {
+    ".tab": "width: fit-content !important; border-right: none !important;",
+    ".tab-label": "line-height: 0px !important;",
+    ".split-view-container": "background: #151515 !important;",
+    ".statusbar": "background: #151515 !important; border: none !important; border-color: transparent !important;",
+    ".scrollbar.vertical": "right: -12px !important;",
+    ".scrollbar.vertical .slider": "opacity:0 !important; width: 2px !important;",
+    ".scrollbar.horizontal .slider": "opacity:0 !important; height: 2px !important;",
+    ".editor-actions": "display: none !important;",
+    "[title='Open Changes']": "display: none !important;",
+    ".tabs-breadcrumbs": "position: fixed; z-index: 2; overflow: hidden; opacity: 0 !important; height: 4px !important; transition: height 200ms ease-out;",
+    ".tabs-breadcrumbs .breadcrumbs-control": "border-bottom: 1px solid var(--title-border-bottom-color)",
+    ".tabs-breadcrumbs:hover": "opacity: 1 !important; height: 23px !important;"
+  },
+  "bracketPairColorizer.highlightActiveScope": true,
+  "bracketPairColorizer.scopeLineRelativePosition": false,
+  "bracketPairColorizer.showVerticalScopeLine": false,
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+  "vscode-edge-devtools.headless": true,
+  "extensions.ignoreRecommendations": false,
+  "stories.username": "Sheri_Gregar Typho",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "right",
+  "editor.lineHeight": 0
+}
